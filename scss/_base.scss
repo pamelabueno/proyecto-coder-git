@@ -1,0 +1,36 @@
+@mixin colors ($color) {
+    color: $color;
+    font-size: 14px;
+    } 
+    
+@keyframes slideUp {
+    0% {
+    transform: translateY (100%);
+    }
+    50% {
+transform: translateY(0);
+    }
+    100% {
+    transform: translateY(-100%);
+    } }
+
+footer {
+    background-color: #bacaca;
+    img {
+        width: 200px;
+        height: 200px;
+    }
+    li {
+        list-style: none;
+    }
+}
+
+$color-primary: cadetblue;
+
+h5 {
+@include colors($color-primary);
+}
+.search-btn:hover {
+@include colors($color-primary);
+}
+

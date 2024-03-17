@@ -1,0 +1,38 @@
+.container {
+    padding: 20px;
+    display: flexbox
+    
+    }
+    h5 {
+        font-size: xx-large;
+        color: #1BB6B1;
+    }
+    
+    section.container {
+        
+    h4 {
+        color: black;
+        text-align: center;
+    }
+    img {
+        border-radius: 15px;
+        width: 250px;
+        height: 250px;
+        align-self: center;
+    }
+    }
+
+    .card {
+        transition-duration: 2s;
+        transition-property: all;
+        transition-delay: 0.1s;
+    }
+
+    .card:hover {
+        transform: scale(1.2);
+        box-shadow: -5px -5px 3px;
+    
+    }
+
+    
+    

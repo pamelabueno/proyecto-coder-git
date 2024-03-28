@@ -15,11 +15,11 @@
 background-color: #F3EDEA;
 align-items: center;
 justify-content: center;
-
 }
 
 .portada img {
   width: 100%;
+  gap: 1rem;
 }
 .custom-btn {
   background-color: #DEA3C9; 
@@ -35,6 +35,7 @@ justify-content: center;
 /*new in*/
 .card-body {
   padding: 3%;
+  gap: 1rem;
 }
 
 footer {
@@ -69,6 +70,7 @@ h5 {
 .container {
   padding: 20px;
   display: flexbox;
+  gap: 1rem;
 }
 
 .header {

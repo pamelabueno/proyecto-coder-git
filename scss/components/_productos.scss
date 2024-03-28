@@ -33,6 +33,28 @@
         box-shadow: -5px -5px 3px;
     
     }
+    // Productos
+.Producto {
+    .row {
+    justify-content: center;
+    }
+
+    .card {
+    transition-duration: 2s;
+    transition-property: all;
+    transition-delay: 0.1s;
+
+    &:hover {
+        transform: scale(1.2);
+        box-shadow: -5px -5px 3px;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+    }
+}
+
 
     
     

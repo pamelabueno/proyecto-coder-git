@@ -1,0 +1,87 @@
+// Botones
+.custom-btn {
+    background-color: #DEA3C9;
+    border-color: #DEA3C9;
+    color: #F3EDEA;
+
+    &:hover {
+    background-color: #D92296;
+    border-color: #D92296;
+    }
+}
+
+  // Header
+.header {
+    background-color: #f3bfdd;
+    background-image: url(/imagenes/descarga.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+
+    .welcome-text {
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    }
+
+    .model-img {
+    max-width: 80%;
+    height: auto;
+    }
+
+    h5 {
+    font-size: xx-large;
+    color: white;
+    }
+}
+
+  // Productos
+.Producto {
+    .row {
+    justify-content: center;
+
+    .card {
+        transition-duration: 2s;
+        transition-property: all;
+        transition-delay: 0.1s;
+
+        &:hover {
+        transform: scale(1.2);
+        box-shadow: -5px -5px 3px;
+        }
+
+        .card-body {
+        text-align: center;
+        }
+    }
+    }
+}
+
+  // Mom Days
+.Mom-Days {
+    background-color: #F3EDEA;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+    color: #D92296;
+    }
+
+    .review {
+    max-width: 540px;
+    display: inline-block;
+    padding: 30px;
+    margin-left: 5px;
+    }
+
+    .custom-btn {
+    background-color: #DEA3C9;
+    border-color: #DEA3C9;
+    }
+}
+
+  // Carrousel
+.carrousel {
+    background-color: aliceblue;
+}

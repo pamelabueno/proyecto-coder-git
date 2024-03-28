@@ -1,6 +1,21 @@
 
-.search-btn:hover {
-    background-color: #1BB6B1; 
-    color: white; 
+// Botones personalizados
+.custom-btn {
+    background-color: #DEA3C9;
+    border-color: #DEA3C9;
+    color: #F3EDEA;
+
+    &:hover {
+    background-color: #D92296;
+    border-color: #D92296;
+    }
 }
+
+// Botones de búsqueda
+.search-btn:hover {
+    color: cadetblue;
+    font-size: 14px;
+}
+
+
 

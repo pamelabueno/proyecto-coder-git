@@ -1,0 +1,209 @@
+@keyframes slideUp {
+  0% {
+    transform: translateY 100%;
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+footer {
+  background-color: #bacaca;
+}
+footer img {
+  width: 200px;
+  height: 200px;
+}
+footer li {
+  list-style: none;
+}
+
+h5 {
+  color: cadetblue;
+  font-size: 14px;
+}
+
+.search-btn:hover {
+  color: cadetblue;
+  font-size: 14px;
+}
+
+.header {
+  background-color: #f3bfdd;
+  background-image: url(/imagenes/descarga.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+.header .welcome-text {
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.header .welcome-text p {
+  animation: slideUp 5s ease infinite;
+}
+.header .model-img {
+  max-width: 80%;
+  height: auto;
+}
+.header h5 {
+  font-size: xx-large;
+  color: white;
+}
+
+.portada {
+  display: flex;
+  background-color: #F3EDEA;
+  align-items: center;
+  justify-content: center;
+}
+.portada img {
+  width: 100%;
+}
+
+.carrousel {
+  background-color: aliceblue;
+}
+
+.newin {
+  background-color: #F3EDEA;
+}
+
+.container {
+  padding: 20px;
+  display: flexbox;
+}
+
+h5 {
+  font-size: xx-large;
+  color: #1BB6B1;
+}
+
+section.container h4 {
+  color: black;
+  text-align: center;
+}
+section.container img {
+  border-radius: 15px;
+  width: 250px;
+  height: 250px;
+  align-self: center;
+}
+
+.card {
+  transition-duration: 2s;
+  transition-property: all;
+  transition-delay: 0.1s;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  box-shadow: -5px -5px 3px;
+}
+
+.Producto .row {
+  justify-content: center;
+}
+.Producto .card {
+  transition-duration: 2s;
+  transition-property: all;
+  transition-delay: 0.1s;
+}
+.Producto .card:hover {
+  transform: scale(1.2);
+  box-shadow: -5px -5px 3px;
+}
+.Producto .card .card-body {
+  text-align: center;
+}
+
+.custom-btn {
+  background-color: #DEA3C9;
+  border-color: #DEA3C9;
+  color: #F3EDEA;
+}
+.custom-btn:hover {
+  background-color: #D92296;
+  border-color: #D92296;
+}
+
+.search-btn:hover {
+  color: cadetblue;
+  font-size: 14px;
+}
+
+.custom-btn {
+  background-color: #DEA3C9;
+  border-color: #DEA3C9;
+  color: #F3EDEA;
+}
+.custom-btn:hover {
+  background-color: #D92296;
+  border-color: #D92296;
+}
+
+.header {
+  background-color: #f3bfdd;
+  background-image: url(/imagenes/descarga.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+.header .welcome-text {
+  margin-bottom: 10px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.header .model-img {
+  max-width: 80%;
+  height: auto;
+}
+.header h5 {
+  font-size: xx-large;
+  color: white;
+}
+
+.Producto .row {
+  justify-content: center;
+}
+.Producto .row .card {
+  transition-duration: 2s;
+  transition-property: all;
+  transition-delay: 0.1s;
+}
+.Producto .row .card:hover {
+  transform: scale(1.2);
+  box-shadow: -5px -5px 3px;
+}
+.Producto .row .card .card-body {
+  text-align: center;
+}
+
+.Mom-Days {
+  background-color: #F3EDEA;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+}
+.Mom-Days h2 {
+  color: #D92296;
+}
+.Mom-Days .review {
+  max-width: 540px;
+  display: inline-block;
+  padding: 30px;
+  margin-left: 5px;
+}
+.Mom-Days .custom-btn {
+  background-color: #DEA3C9;
+  border-color: #DEA3C9;
+}
+
+.carrousel {
+  background-color: aliceblue;
+}
+
+/*# sourceMappingURL=style.css.map */
